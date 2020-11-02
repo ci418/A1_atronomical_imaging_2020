@@ -207,8 +207,9 @@ while(True):
     c_list.append(c)
     radius_list.append(radius)
     
-np.savetxt('Catalogue', catalogue, delimiter='     ,    ', fmt='%.2f', \
-           header = 'Row coord      Column coord      Brightness')
+#saves the catalogue
+#np.savetxt('Catalogue', catalogue, delimiter='     ,    ', fmt='%.2f', \
+#           header = 'Row coord      Column coord      Brightness')
 
 #%%
 params = {
